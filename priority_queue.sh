@@ -67,5 +67,5 @@ pq_pop() {
     done
 
     _queue[$_k]="${_queue[$_last]}"
-    unset _queue[$_last]
+    unset "_queue[$_last]"
 }
